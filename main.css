@@ -1,0 +1,88 @@
+body{
+    background-color: bisque;
+    margin: 3%;
+}
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "heading heading"
+    "navbar navbar"
+    "image_1 text_1"
+    "image_2 text_2"
+    "image_3 text_3"
+    "footer footer";
+}
+.heading {
+    grid-area: heading;
+    text-align: center;
+}
+ 
+.navbar {
+    grid-area: navbar;
+    display: flex; /* Use flexbox to align items horizontally */
+    align-items: center; /* Center items vertically */
+    padding: 6px; /* Add some padding around the navbar */
+ 
+}
+ 
+.logo {
+    text-align: right; /* Align the logo to the right */
+    width: 10%;
+}
+ 
+.navbar ul {
+    list-style-type: none;
+    display: flex; /* Make the list horizontal */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+ 
+.navbar li {
+    margin: 0 15px; /* Add some space between the items */
+    color: #080000;
+}
+ 
+.image_1 {
+    grid-area: image_1;
+    text-align: center;
+    padding-top: 2%;
+}
+ 
+.image_2 {
+    grid-area: image_2;
+    text-align: center;
+}
+ 
+.image_3 {
+    grid-area: image_3;
+    text-align: center;
+}
+ 
+.text_1 {
+    grid-area: text_1;
+    text-align: justify;
+    padding-top: 2%;
+}
+ 
+.text_2 {
+    grid-area: text_2;
+    text-align: center;
+}
+ 
+.text_3 {
+    grid-area: text_3;
+    text-align: left;
+}
+ 
+img{
+    width: 50%;
+ 
+}
+.footer{
+    grid-area: footer;
+    text-align: center;
+ 
+}
