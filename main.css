@@ -79,6 +79,7 @@ body{
     grid-area: text_3;
     text-align: left;
     padding-top: 2%;
+    line-height: 200%;
 }
  
 img{
