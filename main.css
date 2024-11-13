@@ -65,16 +65,19 @@ body{
     grid-area: text_1;
     text-align: justify;
     padding-top: 2%;
+    line-height: 200%;
 }
  
 .text_2 {
     grid-area: text_2;
-    text-align: center;
+    text-align: justify;
+    padding-top: 2%;
 }
  
 .text_3 {
     grid-area: text_3;
     text-align: left;
+    padding-top: 2%;
 }
  
 img{
