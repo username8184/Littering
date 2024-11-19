@@ -49,7 +49,6 @@ body{
     grid-area: image_1;
     text-align: center;
     padding-top: 2%;
-    resize: 10;
 }
  
 .image_2 {
