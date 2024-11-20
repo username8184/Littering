@@ -91,4 +91,15 @@ img{
     text-align: center;
  
 }
-.carousel-container
+.carousel-container{
+    grid-area: carousel-container;
+    position: relative;
+    max-width: 100%;
+    margin:  auto;
+    overflow:hidden;
+}
+
+.carousel-slide{
+    display: flex;
+    
+}
